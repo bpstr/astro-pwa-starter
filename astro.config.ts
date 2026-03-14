@@ -19,7 +19,7 @@ export default defineConfig({
 				path: "./tailwind.config.js"
 			}
 		}),
-		sitemap(),
+		// sitemap(),
 		compress()
 	],
 	vite: {
