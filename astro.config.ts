@@ -11,6 +11,7 @@ import { manifest, seoConfig } from "./utils/seoConfig"
 
 export default defineConfig({
 	site: seoConfig.baseURL,
+	base: '/astro-pwa-starter',
 	outDir: "./dist",
 	integrations: [
 		tailwind({
